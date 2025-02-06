@@ -1,0 +1,31 @@
+.hoverFormItem:hover {
+    background: #DCE7F2;
+
+    &::after {
+        content: 'Только';
+        color: #4395ED;
+        text-transform: uppercase;
+        margin-left: auto;
+    }
+}
+
+.hoverFormItem {
+    transition: all linear 300ms;
+}
+
+
+.ButtonForUSD {
+    background: #4395ED;
+    border: 1px solid #4395ED;
+    color: #fdfeff;
+}
+
+.hoverButton:hover {
+    background: #97bde5;
+    border: 1px solid #97bde5;
+    color: #fdfeff;
+}
+
+.hoverButton {
+    transition: all linear 300ms;
+}
